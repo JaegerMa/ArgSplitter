@@ -6,7 +6,7 @@ namespace ArgSplitter
 {
 	public static class ArgSplitter
 	{
-		public static IEnumerable<string> SplitArgs(this string input, int maxParts = -1, bool removeAllEscapeSequences = false)
+		public static IEnumerable<string> SplitArgs(this string input, int maxParts = int.MaxValue, bool removeAllEscapeSequences = false)
 		{
 			var chars = input.Trim().ToCharArray().ToList();
 			var fragments = new List<string>();
