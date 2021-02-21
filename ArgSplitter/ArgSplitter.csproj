@@ -12,6 +12,8 @@
     <PackageTags>arg args arguments params parameters split</PackageTags>
     <PackageProjectUrl>https://github.com/JaegerMa/ArgSplitter</PackageProjectUrl>
     <PackageLicenseUrl>https://raw.githubusercontent.com/JaegerMa/ArgSplitter/master/LICENSE</PackageLicenseUrl>
+    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
